@@ -1,0 +1,4 @@
+tasks.register('copyWebsite', Copy) {
+    from 'src/main/resources/website'
+    into 'docs'
+}
